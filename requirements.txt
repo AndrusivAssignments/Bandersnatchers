@@ -2,3 +2,4 @@ numpy
 pytest
 requests
 beautifulsoup4
+networkx

@@ -128,6 +128,9 @@ if __name__ == "__main__":
 
     print("\nUnique pages:", len(result))
 
+    current_dir = os.path.dirname(__file__)
+    output_path = os.path.join(current_dir, "graph.json")
+
     with open("graph.json", "w") as f:
         json.dump(result, f, indent=2)
 
